@@ -2,7 +2,7 @@
 
 export default function Home() {
   return (
-    <div className="container mx-auto p-2 bg-neutral-900">
+    <div className="container mx-auto p-2">
 
       <div className="mt-5 p-1">
         <div>
