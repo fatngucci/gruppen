@@ -20,57 +20,59 @@ export default function Home() {
           <div className="space-y-6">
             <div className="text-center">
               <p className="text-lg font-bold">TU Berlin</p>
-              <p className="text-sm pb-1 pt-2">
+              <a className="text-sm pb-1 pt-2 underline" href="https://chat.whatsapp.com/L8qOu9UUqar7CwDqUfoovM">
                 https://chat.whatsapp.com/L8qOu9UUqar7CwDqUfoovM
-              </p>
-              <p className="text-sm py-1">
+              </a>
+              <br/>
+              <a className="text-sm py-1 underline" href="https://chat.whatsapp.com/BXtZwZOi5zpIRMzfdZUwwt">
                 https://chat.whatsapp.com/BXtZwZOi5zpIRMzfdZUwwt
-              </p>
+              </a>
             </div>
             <div className="text-center">
               <p className="text-lg font-bold"> HU Berlin </p>
-              <p className="text-sm pb-1 pt-2">
+              <a className="text-sm pb-1 pt-2 underline" href="https://chat.whatsapp.com/D8ftwWReuw4BkURYXBnyM4">
                 https://chat.whatsapp.com/D8ftwWReuw4BkURYXBnyM4
-              </p>
-              <p className="text-sm py-2">
+              </a>
+              <br/>
+              <a className="text-sm py-1 underline" href="https://chat.whatsapp.com/BctwAcoezgG7gGY9sh7cSF">
                 https://chat.whatsapp.com/BctwAcoezgG7gGY9sh7cSF
-              </p>
+              </a>
             </div>
             <div className="text-center">
               <p className="text-lg font-bold"> FU Berlin </p>
-              <p className="text-sm py-2">
+              <a className="text-sm py-2 underline" href="https://chat.whatsapp.com/DhCLbTBXHc7JbJrRgj2a2o">
                 https://chat.whatsapp.com/DhCLbTBXHc7JbJrRgj2a2o
-              </p>
+              </a>
             </div>
             <div className="text-center">
               <p className="text-lg font-bold"> HTW Berlin </p>
-              <p className="text-sm py-2">
+              <a className="text-sm py-2 underline" href="https://chat.whatsapp.com/L6O4mJ2UNZOAXleSFFGxjg">
                 https://chat.whatsapp.com/L6O4mJ2UNZOAXleSFFGxjg
-              </p>
+              </a>
             </div>
             <div className="text-center">
               <p className="text-lg font-bold"> Uni Potsdam </p>
-              <p className="text-sm py-2">
+              <a className="text-sm py-2 underline" href="https://chat.whatsapp.com/HUFAxpncF7xADVCXLnj90O">
                 https://chat.whatsapp.com/HUFAxpncF7xADVCXLnj90O
-              </p>
+              </a>
             </div>
             <div className="text-center">
               <p className="text-lg font-bold"> Ersti Gruppen Berlin </p>
-              <p className="text-sm py-2"> 
+              <a className="text-sm py-2 underline" href="https://chat.whatsapp.com/J8iVHk5exVF7dFOhKVJ1jV"> 
                 https://chat.whatsapp.com/J8iVHk5exVF7dFOhKVJ1jV
-              </p>
+              </a>
             </div>
             <div className="text-center">
               <p className="text-lg font-bold"> Studenten Jobs </p>
-              <p className="text-sm py-2">
+              <a className="text-sm py-2 underline" href="https://chat.whatsapp.com/GG8pHL8dONQCVK994kLIaz">
                 https://chat.whatsapp.com/GG8pHL8dONQCVK994kLIaz
-              </p>
+              </a>
             </div>
             <div className="text-center">
               <p className="text-lg font-bold"> Wohungsbörse Berlin </p>
-              <p className="text-sm py-2">
+              <a className="text-sm py-2 underline" href="https://chat.whatsapp.com/JyjhAfsAHdxAWGt9wtmzeB">
                 https://chat.whatsapp.com/JyjhAfsAHdxAWGt9wtmzeB
-              </p>
+              </a>
             </div>
           </div>
         </div>
