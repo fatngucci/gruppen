@@ -1,6 +1,6 @@
 "use client";
 
-import { Box, Drawer, List, ListItem, ListItemButton } from "@mui/material";
+import { Box, Drawer, List, ListItem, ListItemButton, ListItemText } from "@mui/material";
 import { Share, Menu, X } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -22,28 +22,28 @@ export default function NavBar() {
             </ListItemButton>
           </ListItem >
           <ListItem key="home" disablePadding>
-            <ListItemButton>
-              <Link href="/" className=""> Home </Link>
+            <ListItemButton LinkComponent={Link} href="/" onClick={toggleDrawer(false)}>
+              <ListItemText> Home </ListItemText>
             </ListItemButton>
           </ListItem>
           <ListItem key="regeln" disablePadding>
-            <ListItemButton>
-              <Link href="/regeln"> Regeln </Link>
-            </ListItemButton>
-          </ListItem>
-          <ListItem key="kontakt" disablePadding>
-            <ListItemButton>
-              <Link href="/kontakt"> Kontakt </Link>
+            <ListItemButton LinkComponent={Link} href="/regeln" onClick={toggleDrawer(false)}>
+              <ListItemText> Regeln </ListItemText>
             </ListItemButton>
           </ListItem>
           <ListItem key="info" disablePadding>
-            <ListItemButton>
-              <Link href="/info"> Info für Fachschaften </Link>
+            <ListItemButton LinkComponent={Link} href="/info" onClick={toggleDrawer(false)}>
+              <ListItemText> Info für Fachschaften </ListItemText>
+            </ListItemButton>
+          </ListItem>
+          <ListItem key="kontakt" disablePadding>
+            <ListItemButton LinkComponent={Link} href="/kontakt" onClick={toggleDrawer(false)}>
+              <ListItemText> Kontakt </ListItemText>
             </ListItemButton>
           </ListItem>
           <ListItem key="impressum" disablePadding>
-            <ListItemButton>
-              <Link href="/impressum"> Impressum </Link>
+            <ListItemButton LinkComponent={Link} href="/impressum" onClick={toggleDrawer(false)}>
+              <ListItemText> Impressum </ListItemText>
             </ListItemButton>
           </ListItem>
        </List>
