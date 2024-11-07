@@ -13,6 +13,24 @@ export default function NavBar() {
       setOpen(newOpen);
     }
 
+    const handleShare = async () => {
+      if (navigator.share) {
+        try {
+          await navigator.share({
+            title: 'Teile diesen Inhalt',
+            text: 'Schau dir das an!',
+            url: window.location.href,
+          });
+        } catch (error) {
+          console.error('Error sharing:', error);
+        }
+      } else {
+        // Fallback: URL in Zwischenablage kopieren
+        navigator.clipboard.writeText(window.location.href);
+        alert('Link wurde in die Zwischenablage kopiert!');
+      }
+    };
+
     const DrawerList = (
       <Box className="w-[250px]" role="presentation">
         <List className="justify-center">
@@ -58,8 +76,8 @@ export default function NavBar() {
         </div>
         <div className="basis-1/4 p-1">
           <div className="flex flex-row justify-end space-x-3">
-            <div className="border rounded-md bg-white">
-              <Share className="m-1 p-0.5" size={32} color="black"/>
+            <div className="border rounded-md bg-white cursor-pointer">
+              <Share className="m-1 p-0.5" size={32} color="black" onClick={handleShare}/>
             </div>
             <div className="border rounded">
                 <Menu className="m-1 p-0.5" size={32} onClick={toggleDrawer(true)} />
