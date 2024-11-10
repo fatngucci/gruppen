@@ -10,7 +10,7 @@ export default function LinkButton({ uni, link }: LinkButtonAsset) {
         <div className="border rounded my-2">
             <a href={link} target="_blank" rel="noopener noreferrer">
                 <div className="p-2 flex justify-between">
-                    <p> {uni} </p>
+                    <p className="font-bold"> {uni} </p>
                     <ChevronRight />
                 </div>
             </a>
