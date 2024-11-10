@@ -70,7 +70,7 @@ export default function NavBar() {
 
 
     return(
-    <div className="flex flex-row bg-neutral-900">
+    <div className="flex flex-row p-2">
         <div className="basis-3/4 p-1 self-center"> 
           <Image src='/UniConnect_weiß.png' alt="logo" width="128" height="64"/>
         </div>
