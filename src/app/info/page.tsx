@@ -2,9 +2,9 @@
 
 export default function Info() {
     return(
-        <div className="container mx-auto p-2">
-            <div className="my-5 p-1 space-y-5">
-                <p className="text-2xl text-center font-bold">
+        <div className="container mx-auto p-4">
+            <div className="mt-5 p-1 space-y-5">
+                <p className="text-lg text-center font-bold my-5">
                     Info für Fachschaften
                 </p>
                 <p className="pb-4">

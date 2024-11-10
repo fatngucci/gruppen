@@ -4,7 +4,6 @@ import LinkButton from "@/components/linkButton";
 export default function Home() {
   return (
     <div className="container mx-auto p-4">
-
       <div className="mt-5 p-1">
         <div>
           <p className="text-lg font-bold text-center my-5"> 

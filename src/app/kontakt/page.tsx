@@ -3,9 +3,9 @@
 
 export default function Kontakt() {
     return(
-        <div className="container mx-auto p-2">
+        <div className="container mx-auto p-4">
             <div className="mt-5 p-1">
-                <p className="text-2xl text-center font-bold my-5">
+                <p className="text-lg text-center font-bold my-5">
                     Schnellster Kontakt
                 </p>
                 <p className="text-center">
