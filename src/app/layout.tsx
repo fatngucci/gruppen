@@ -14,6 +14,12 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
+const goodTimeGrotesk = localFont({
+  src: "./fonts/GoodTimeGrotesk.otf",
+  variable: "--font-goodtime-grotesk",
+  weight: "100 900"
+})
+
 export const metadata: Metadata = {
   title: "UniConnect Berlin",
   description: "Be connected",
@@ -27,7 +33,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-neutral-900`}
+        className={`${geistSans.variable} ${geistMono.variable} ${goodTimeGrotesk.variable} antialiased bg-neutral-900`}
       >
         <NavBar />
         {children}

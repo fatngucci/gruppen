@@ -11,7 +11,7 @@ export default function Kontakt() {
                 <p className="text-center">
                     Am einfachsten kannst du uns über folgender Nummer eine WhatsApp schreiben:
                     <br/><br/>
-                    <span className="bg-purple-500 p-0.5">+49 15772524610</span>
+                    <span className="bg-[#04b851] p-0.5">+49 15772524610</span>
                 </p>
             </div>
         </div>

@@ -7,7 +7,7 @@ export default function Info() {
                 <p className="text-lg text-center font-bold my-5">
                     Info für Fachschaften
                 </p>
-                <p className="pb-4">
+                <p className="py-4">
                     <b>Ziel dieser Seite</b>
                     <br/><br/>
                     Diese Seite bietet Studienanfänger*innen eine zentrale Anlaufstelle, um vor oder zu Beginn des Studiums Anschluss zu finden und sich mit anderen Studierenden auszutauschen. Die Gruppen sind als Ergänzung zu offiziellen Kommunikationskanälen gedacht und werden von Studierenden intensiv genutzt, um sich auch über den eigenen Studiengang hinaus zu vernetzen.
