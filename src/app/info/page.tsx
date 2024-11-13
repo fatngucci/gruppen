@@ -5,7 +5,7 @@ export default function Info() {
         <div className="container mx-auto p-4">
             <div className="mt-5 p-1 space-y-5">
                 <p className="text-lg text-center font-bold my-5">
-                    Info für Fachschaften
+                <span className="bg-[#04b851] text-[#ffffff] p-0.5">Info für Fachschaften</span>
                 </p>
                 <p className="py-4">
                     <b>Ziel dieser Seite</b>

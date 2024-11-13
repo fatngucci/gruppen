@@ -72,12 +72,12 @@ export default function NavBar() {
     return(
     <div className="flex flex-row p-2">
         <div className="basis-3/4 p-1 self-center"> 
-          <Image src='/UniConnect_weiß.png' alt="logo" width="128" height="64"/>
+          <Image src='/UniConnect_schwarz.png' alt="logo" width="128" height="64"/>
         </div>
         <div className="basis-1/4 p-1">
           <div className="flex flex-row justify-end space-x-3">
-            <div className="border rounded-md bg-white cursor-pointer">
-              <Share className="m-1 p-0.5" size={32} color="black" onClick={handleShare}/>
+            <div className="rounded-md bg-neutral-900 cursor-pointer">
+              <Share className="m-1 p-0.5" size={32} color="#f8f7f4" onClick={handleShare}/>
             </div>
             <div className="border rounded">
                 <Menu className="m-1 p-0.5" size={32} onClick={toggleDrawer(true)} />

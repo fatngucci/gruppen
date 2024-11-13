@@ -33,7 +33,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${goodTimeGrotesk.variable} antialiased bg-neutral-900`}
+        className={`${geistSans.variable} ${geistMono.variable} ${goodTimeGrotesk.variable} antialiased bg-[#f8f7f4] text-neutral-900`}
       >
         <NavBar />
         {children}
