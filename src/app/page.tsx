@@ -3,7 +3,7 @@ import LinkButton from "@/components/linkButton";
 
 export default function Home() {
   return (
-    <div className="w-full">
+    <div className="w-full pb-12">
       <div className="bg-green-200 pb-2 px-8">
         <div className=" p-1">
             <div className="">
