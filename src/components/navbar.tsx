@@ -1,6 +1,7 @@
 "use client";
 
-import { Box, Drawer, List, ListItem, ListItemButton, ListItemText } from "@mui/material";
+import theme from "@/lib/theme";
+import { Box, Drawer, List, ListItem, ListItemButton, ListItemText, ThemeProvider } from "@mui/material";
 import { Share, Menu, X } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -8,6 +9,11 @@ import React from "react";
 
 export default function NavBar() {
     const [open, setOpen] = React.useState(false);
+    // const theme = createTheme({
+    //   typography: {
+    //     fontFamily:
+    //   }
+    // })
 
     const toggleDrawer = (newOpen: boolean) => () => {
       setOpen(newOpen);
@@ -32,7 +38,7 @@ export default function NavBar() {
     };
 
     const DrawerList = (
-      <Box className="w-[250px]" role="presentation">
+      <Box className="w-[250px] font-goodtime" role="presentation">
         <List className="justify-center">
           <ListItem className="self-end" disablePadding>
             <ListItemButton onClick={toggleDrawer(false)}>
@@ -70,23 +76,25 @@ export default function NavBar() {
 
 
     return(
-    <div className="flex flex-row p-2">
-        <div className="basis-3/4 p-1 self-center"> 
-          <Image src='/UniConnect_schwarz.png' alt="logo" width="128" height="64"/>
-        </div>
-        <div className="basis-1/4 p-1">
-          <div className="flex flex-row justify-end space-x-3">
-            <div className="rounded-md bg-neutral-900 cursor-pointer">
-              <Share className="m-1 p-0.5" size={32} color="#f8f7f4" onClick={handleShare}/>
+      <ThemeProvider theme={theme}>
+        <div className="flex flex-row p-2">
+            <div className="basis-3/4 p-1 self-center"> 
+              <Image src='/UniConnect_schwarz.png' alt="logo" width="128" height="64"/>
             </div>
-            <div className="border rounded">
-                <Menu className="m-1 p-0.5" size={32} onClick={toggleDrawer(true)} />
-                <Drawer open={open} onClose={toggleDrawer(false)} anchor="right">
-                  {DrawerList}
-                </Drawer>
+            <div className="basis-1/4 p-1">
+              <div className="flex flex-row justify-end space-x-3">
+                <div className="rounded-md bg-neutral-900 cursor-pointer">
+                  <Share className="m-1 p-0.5" size={32} color="#f8f7f4" onClick={handleShare}/>
+                </div>
+                <div className="border rounded">
+                    <Menu className="m-1 p-0.5" size={32} onClick={toggleDrawer(true)} />
+                    <Drawer open={open} onClose={toggleDrawer(false)} anchor="right" className="font-custom">
+                      {DrawerList}
+                    </Drawer>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
+      </ThemeProvider>
     )
 }
