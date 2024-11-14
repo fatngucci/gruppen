@@ -68,21 +68,21 @@ export default function Home() {
             <div className="text-center">
               <p className="text-lg font-bold"><span className="bg-[#04b851] text-[#ffffff] p-0.5"> Ersti Gruppen Berlin </span></p>
               <LinkButton 
-                uni="ERSTI GRUPPEN BERLIN"
+                uni="Ersti Gruppen Berlin"
                 link="https://chat.whatsapp.com/J8iVHk5exVF7dFOhKVJ1jV"
               />
             </div>
             <div className="text-center">
               <p className="text-lg font-bold"><span className="bg-[#04b851] text-[#ffffff] p-0.5">Studenten Jobs</span></p>
               <LinkButton 
-                uni="STUDENT JOBS - BERLIN"
+                uni="Student Jobs - Berlin"
                 link="https://chat.whatsapp.com/GG8pHL8dONQCVK994kLIaz"
               />
             </div>
             <div className="text-center">
               <p className="text-lg font-bold"><span className="bg-[#04b851] text-[#ffffff] p-0.5">Wohungsbörse Berlin</span></p>
               <LinkButton 
-                uni="WOHNUNGSBÖRSE BERLIN 🏡"
+                uni="Wohungsbörse Berlin 🏡"
                 link="https://chat.whatsapp.com/JyjhAfsAHdxAWGt9wtmzeB"
               />
             </div>
