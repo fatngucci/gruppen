@@ -3,7 +3,7 @@ export default function Gruppenregeln() {
     return(
         <div className="container mx-auto p-4">
             <div className="mt-5 p-1 space-y-10">
-                <p className="text-lg text-center font-bold my-5"><span className="bg-[#04b851] text-[#ffffff] p-0.5">Gruppenregeln</span></p>
+                <p className="text-lg text-center font-bold my-5"><span className="bg-[#04b851] text-[#ffffff] p-0.5 px-1">Gruppenregeln</span></p>
                 <p className="mb-10"> 
                     Unsere oberste Priorität ist ein respektvoller und konstruktiver Austausch in den Gruppen. 
                     Themen, die gegen die Regeln verstoßen, werden gelöscht und die Verantwortlichen können dauerhaft entfernt werden. 

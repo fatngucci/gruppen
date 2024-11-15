@@ -9,11 +9,6 @@ import React from "react";
 
 export default function NavBar() {
     const [open, setOpen] = React.useState(false);
-    // const theme = createTheme({
-    //   typography: {
-    //     fontFamily:
-    //   }
-    // })
 
     const toggleDrawer = (newOpen: boolean) => () => {
       setOpen(newOpen);

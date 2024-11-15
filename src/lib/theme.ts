@@ -3,7 +3,7 @@ import { createTheme } from "@mui/material";
 
 const theme = createTheme({
     typography: {
-        fontFamily: "var(--font-goodtime-grotesk), sans-serif",
+        fontFamily: "var(--font-helvetica), sans-serif",
     }
 })
 

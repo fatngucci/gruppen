@@ -20,6 +20,12 @@ const goodTimeGrotesk = localFont({
   weight: "100 900"
 })
 
+const helveticaNeue = localFont({
+  src: "./fonts/helveticaneue.woff",
+  variable: "--font-helvetica",
+  weight: "100 900"
+})
+
 export const metadata: Metadata = {
   title: "UniConnect Berlin",
   description: "Be connected",
@@ -33,7 +39,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${goodTimeGrotesk.variable} antialiased bg-[#f8f7f4] text-neutral-900`}
+        className={`${geistSans.variable} ${geistMono.variable} ${goodTimeGrotesk.variable} ${helveticaNeue.variable} antialiased bg-[#f8f7f4] text-neutral-900`}
       >
         <NavBar />
         {children}

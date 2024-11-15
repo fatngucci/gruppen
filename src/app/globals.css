@@ -17,9 +17,5 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: var(--font-goodtime-grotesk), sans-serif;
-}
-
-.font-goodtime {
-  font-family: var(--font-goodtime-grotesk), sans-serif;
+  font-family: var(--font-helvetica), sans-serif;
 }

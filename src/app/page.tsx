@@ -12,7 +12,7 @@ export default function Home() {
                 <br />
                 Vernetze dich mit
                 <br/> 
-                <span className="bg-[#04b851] text-[#ffffff] p-0.5"> allen Studenten in Berlin </span>  
+                <span className="bg-[#04b851] text-[#ffffff] p-0.5 px-1"> allen Studenten in Berlin </span>  
               </p>
               <p className="text-sm text-slate-400 text-center my-5">
                 Diese Website bietet euch eine Übersicht aller WhatsApp-Gruppen für Erstsemester im Wintersemester 2024/25. 
@@ -23,7 +23,7 @@ export default function Home() {
       </div>
           <div className="pt-8 space-y-6 px-8">
             <div className="text-center">
-              <p className="text-lg font-bold"><span className="bg-[#04b851] text-[#ffffff] p-0.5">TU Berlin</span></p>
+              <p className="text-lg font-bold"><span className="bg-[#04b851] text-[#ffffff] p-0.5 px-1">TU Berlin</span></p>
               <LinkButton 
                 uni="TU Berlin"
                 link="https://chat.whatsapp.com/L8qOu9UUqar7CwDqUfoovM"
@@ -34,7 +34,7 @@ export default function Home() {
                 />
             </div>
             <div className="text-center">
-              <p className="text-lg font-bold"><span className="bg-[#04b851] text-[#ffffff] p-0.5">HU Berlin</span></p>
+              <p className="text-lg font-bold"><span className="bg-[#04b851] text-[#ffffff] p-0.5 px-1">HU Berlin</span></p>
               <LinkButton 
                 uni="Humboldt Universität 🎓"
                 link="https://chat.whatsapp.com/D8ftwWReuw4BkURYXBnyM4"
@@ -45,42 +45,42 @@ export default function Home() {
               />
             </div>
             <div className="text-center">
-              <p className="text-lg font-bold"><span className="bg-[#04b851] text-[#ffffff] p-0.5">FU Berlin</span></p>
+              <p className="text-lg font-bold"><span className="bg-[#04b851] text-[#ffffff] p-0.5 px-1">FU Berlin</span></p>
               <LinkButton 
                 uni="FU Berlin🎓"
                 link="https://chat.whatsapp.com/DhCLbTBXHc7JbJrRgj2a2o"
                 />
             </div>
             <div className="text-center">
-              <p className="text-lg font-bold"><span className="bg-[#04b851] text-[#ffffff] p-0.5">HTW Berlin</span></p>
+              <p className="text-lg font-bold"><span className="bg-[#04b851] text-[#ffffff] p-0.5 px-1">HTW Berlin</span></p>
               <LinkButton 
                 uni="HTW Berlin Erstis"
                 link="https://chat.whatsapp.com/L6O4mJ2UNZOAXleSFFGxjg"
               />
             </div>
             <div className="text-center">
-              <p className="text-lg font-bold"><span className="bg-[#04b851] text-[#ffffff] p-0.5">Uni Potsdam</span></p>
+              <p className="text-lg font-bold"><span className="bg-[#04b851] text-[#ffffff] p-0.5 px-1">Uni Potsdam</span></p>
               <LinkButton 
                 uni="Uni Potsdam 🎓"
                 link="https://chat.whatsapp.com/HUFAxpncF7xADVCXLnj90O"
               />
             </div>
             <div className="text-center">
-              <p className="text-lg font-bold"><span className="bg-[#04b851] text-[#ffffff] p-0.5"> Ersti Gruppen Berlin </span></p>
+              <p className="text-lg font-bold"><span className="bg-[#04b851] text-[#ffffff] p-0.5 px-1"> Ersti Gruppen Berlin </span></p>
               <LinkButton 
                 uni="Ersti Gruppen Berlin"
                 link="https://chat.whatsapp.com/J8iVHk5exVF7dFOhKVJ1jV"
               />
             </div>
             <div className="text-center">
-              <p className="text-lg font-bold"><span className="bg-[#04b851] text-[#ffffff] p-0.5">Studenten Jobs</span></p>
+              <p className="text-lg font-bold"><span className="bg-[#04b851] text-[#ffffff] p-0.5 px-1">Studenten Jobs</span></p>
               <LinkButton 
                 uni="Student Jobs - Berlin"
                 link="https://chat.whatsapp.com/GG8pHL8dONQCVK994kLIaz"
               />
             </div>
             <div className="text-center">
-              <p className="text-lg font-bold"><span className="bg-[#04b851] text-[#ffffff] p-0.5">Wohungsbörse Berlin</span></p>
+              <p className="text-lg font-bold"><span className="bg-[#04b851] text-[#ffffff] p-0.5 px-1">Wohungsbörse Berlin</span></p>
               <LinkButton 
                 uni="Wohungsbörse Berlin 🏡"
                 link="https://chat.whatsapp.com/JyjhAfsAHdxAWGt9wtmzeB"
