@@ -47,7 +47,7 @@ export default function Home() {
             <div className="text-center">
               <p className="text-lg font-bold"><span className="bg-[#04b851] text-[#ffffff] p-0.5">FU Berlin</span></p>
               <LinkButton 
-                uni="FU BERLIN🎓"
+                uni="FU Berlin🎓"
                 link="https://chat.whatsapp.com/DhCLbTBXHc7JbJrRgj2a2o"
                 />
             </div>
