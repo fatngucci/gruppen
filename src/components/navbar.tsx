@@ -73,9 +73,11 @@ export default function NavBar() {
     return(
       <ThemeProvider theme={theme}>
         <div className="flex flex-row p-2">
-            <div className="basis-3/4 p-1 self-center"> 
-              <Image src='/UniConnect_schwarz.png' alt="logo" width="128" height="64"/>
-            </div>
+          <div className="basis-3/4 self-center">
+            <Link href="/" className="inline-block p-1">  
+              <Image src='/UniConnect_schwarz.png' alt="logo" width="128" height="64" />
+            </Link>
+          </div>
             <div className="basis-1/4 p-1">
               <div className="flex flex-row justify-end space-x-3">
                 <div className="rounded-md bg-neutral-900 cursor-pointer">
