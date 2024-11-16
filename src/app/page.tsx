@@ -72,12 +72,12 @@ export default function Home() {
                 link="https://chat.whatsapp.com/J8iVHk5exVF7dFOhKVJ1jV"
               />
             </div>
-            <div>
-            <p className="text-lg font-bold"><span className="bg-[#04b851] text-[#ffffff] p-0.5 px-1"> Alle Studenten Partys in BLN </span></p>
-              <LinkButton 
-                uni="Alle Studenten Partys in BLN"
-                link="https://chat.whatsapp.com/IGvFo0KFXJW0AkRCC5eyGw"
-              />
+            <div className="text-center">
+              <p className="text-lg font-bold"><span className="bg-[#04b851] text-[#ffffff] p-0.5 px-1"> Alle Studenten Partys in BLN </span></p>
+                <LinkButton 
+                  uni="Alle Studenten Partys in BLN"
+                  link="https://chat.whatsapp.com/IGvFo0KFXJW0AkRCC5eyGw"
+                />
             </div>
             <div className="text-center">
               <p className="text-lg font-bold"><span className="bg-[#04b851] text-[#ffffff] p-0.5 px-1">Studenten Jobs</span></p>
