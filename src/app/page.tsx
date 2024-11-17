@@ -52,6 +52,20 @@ export default function Home() {
                 />
             </div>
             <div className="text-center">
+              <p className="text-lg font-bold"><span className="bg-[#04b851] text-[#ffffff] p-0.5 px-1">UDK</span></p>
+              <LinkButton 
+                uni="Universität der Künste 🎓"
+                link="https://chat.whatsapp.com/KNaakAj55T5Gg7qTP1HqUw"
+                />
+            </div>
+            <div className="text-center">
+              <p className="text-lg font-bold"><span className="bg-[#04b851] text-[#ffffff] p-0.5 px-1">Uni Potsdam</span></p>
+              <LinkButton 
+                uni="Uni Potsdam 🎓"
+                link="https://chat.whatsapp.com/HUFAxpncF7xADVCXLnj90O"
+              />
+            </div>
+            <div className="text-center">
               <p className="text-lg font-bold"><span className="bg-[#04b851] text-[#ffffff] p-0.5 px-1">HTW Berlin</span></p>
               <LinkButton 
                 uni="HTW Berlin Erstis"
@@ -59,10 +73,10 @@ export default function Home() {
               />
             </div>
             <div className="text-center">
-              <p className="text-lg font-bold"><span className="bg-[#04b851] text-[#ffffff] p-0.5 px-1">Uni Potsdam</span></p>
+              <p className="text-lg font-bold"><span className="bg-[#04b851] text-[#ffffff] p-0.5 px-1">HWR Berlin</span></p>
               <LinkButton 
-                uni="Uni Potsdam 🎓"
-                link="https://chat.whatsapp.com/HUFAxpncF7xADVCXLnj90O"
+                uni="HWR Erstis 🎓"
+                link="https://chat.whatsapp.com/G25AE9k0eK6JVFuq5W5jLn"
               />
             </div>
             <div className="text-center">
