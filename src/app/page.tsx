@@ -25,85 +25,111 @@ export default function Home() {
             <div className="text-center">
               <p className="text-lg font-bold"><span className="bg-[#04b851] text-[#ffffff] p-0.5 px-1">TU Berlin</span></p>
               <LinkButton 
-                uni="TU Berlin"
+                name="TU Berlin"
+                uni="TU"
+                category="TU1"
                 link="https://chat.whatsapp.com/L8qOu9UUqar7CwDqUfoovM"
               />
               <LinkButton
-                uni="TU Berlin 🧑🏽‍🏫"
+                name="TU Berlin 🧑🏽‍🏫"
+                uni="TU"
+                category="TU2"
                 link="https://chat.whatsapp.com/BXtZwZOi5zpIRMzfdZUwwt"
                 />
             </div>
             <div className="text-center">
               <p className="text-lg font-bold"><span className="bg-[#04b851] text-[#ffffff] p-0.5 px-1">HU Berlin</span></p>
               <LinkButton 
-                uni="Humboldt Universität 🎓"
+                name="Humboldt Universität 🎓"
+                uni="HU"
+                category="HU1"
                 link="https://chat.whatsapp.com/D8ftwWReuw4BkURYXBnyM4"
               />
               <LinkButton 
-                uni="Humboldt Universität 🎓 2"
+                name="Humboldt Universität 🎓 2"
+                uni="HU"
+                category="HU2"
                 link="https://chat.whatsapp.com/BctwAcoezgG7gGY9sh7cSF"
               />
             </div>
             <div className="text-center">
               <p className="text-lg font-bold"><span className="bg-[#04b851] text-[#ffffff] p-0.5 px-1">FU Berlin</span></p>
               <LinkButton 
-                uni="FU Berlin🎓"
+                name="FU Berlin🎓"
+                uni="FU"
+                category="FU1"
                 link="https://chat.whatsapp.com/DhCLbTBXHc7JbJrRgj2a2o"
                 />
             </div>
             <div className="text-center">
               <p className="text-lg font-bold"><span className="bg-[#04b851] text-[#ffffff] p-0.5 px-1">UDK</span></p>
               <LinkButton 
-                uni="Universität der Künste 🎓"
+                name="Universität der Künste 🎓"
+                uni="UDK"
+                category="UDK1"
                 link="https://chat.whatsapp.com/KNaakAj55T5Gg7qTP1HqUw"
                 />
             </div>
             <div className="text-center">
               <p className="text-lg font-bold"><span className="bg-[#04b851] text-[#ffffff] p-0.5 px-1">Uni Potsdam</span></p>
               <LinkButton 
-                uni="Uni Potsdam 🎓"
+                name="Uni Potsdam 🎓"
+                uni="UniPotsdam"
+                category="UniPotsdam1"
                 link="https://chat.whatsapp.com/HUFAxpncF7xADVCXLnj90O"
               />
             </div>
             <div className="text-center">
               <p className="text-lg font-bold"><span className="bg-[#04b851] text-[#ffffff] p-0.5 px-1">HTW Berlin</span></p>
               <LinkButton 
-                uni="HTW Berlin Erstis"
+                name="HTW Berlin Erstis"
+                uni="HTW"
+                category="HTW1"
                 link="https://chat.whatsapp.com/L6O4mJ2UNZOAXleSFFGxjg"
               />
             </div>
             <div className="text-center">
               <p className="text-lg font-bold"><span className="bg-[#04b851] text-[#ffffff] p-0.5 px-1">HWR Berlin</span></p>
               <LinkButton 
-                uni="HWR Erstis 🎓"
+                name="HWR Erstis 🎓"
+                uni="HWR"
+                category="HWR1"
                 link="https://chat.whatsapp.com/G25AE9k0eK6JVFuq5W5jLn"
               />
             </div>
             <div className="text-center">
               <p className="text-lg font-bold"><span className="bg-[#04b851] text-[#ffffff] p-0.5 px-1"> Ersti Gruppen Berlin </span></p>
               <LinkButton 
-                uni="Ersti Gruppen Berlin"
+                name="Ersti Gruppen Berlin"
+                uni="Ersti"
+                category="Ersti1"
                 link="https://chat.whatsapp.com/J8iVHk5exVF7dFOhKVJ1jV"
               />
             </div>
             <div className="text-center">
               <p className="text-lg font-bold"><span className="bg-[#04b851] text-[#ffffff] p-0.5 px-1"> Alle Studenten Partys in BLN </span></p>
                 <LinkButton 
-                  uni="Alle Studenten Partys in BLN"
+                  name="Alle Studenten Partys in BLN"
+                  uni="Partys"
+                  category="Partys1"
                   link="https://chat.whatsapp.com/IGvFo0KFXJW0AkRCC5eyGw"
                 />
             </div>
             <div className="text-center">
               <p className="text-lg font-bold"><span className="bg-[#04b851] text-[#ffffff] p-0.5 px-1">Studenten Jobs</span></p>
               <LinkButton 
-                uni="Student Jobs - Berlin"
+                name="Student Jobs - Berlin"
+                uni="Jobs"
+                category="Jobs1"
                 link="https://chat.whatsapp.com/GG8pHL8dONQCVK994kLIaz"
               />
             </div>
             <div className="text-center">
               <p className="text-lg font-bold"><span className="bg-[#04b851] text-[#ffffff] p-0.5 px-1">Wohungsbörse Berlin</span></p>
               <LinkButton 
-                uni="Wohungsbörse Berlin 🏡"
+                name="Wohungsbörse Berlin 🏡"
+                uni="Wohnung"
+                category="Wohnung1"
                 link="https://chat.whatsapp.com/JyjhAfsAHdxAWGt9wtmzeB"
               />
             </div>
