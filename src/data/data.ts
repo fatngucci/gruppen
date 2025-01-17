@@ -213,6 +213,10 @@ export const AllData: AllDataSets = {
             "ICH BIETE",
             "WG ZIMMER"
         ]
+    },
+    Rabatte: {
+        Rabatte1: [
+        ]
     }
 }
 

@@ -133,6 +133,15 @@ export default function Home() {
                 link="https://chat.whatsapp.com/JyjhAfsAHdxAWGt9wtmzeB"
               />
             </div>
+            <div className="text-center">
+              <p className="text-lg font-bold"><span className="bg-[#04b851] text-[#ffffff] p-0.5 px-1">Studentenrabatte</span></p>
+              <LinkButton 
+                name="Studentenrabatte & Spar-Tipps 🎓"
+                uni="Rabatte"
+                category="Rabatte1"
+                link="https://chat.whatsapp.com/DMEQajtqwBdK5vAgMLEKT3"
+              />
+            </div>
           </div>
     </div>
   );
