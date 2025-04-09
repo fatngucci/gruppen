@@ -76,7 +76,7 @@ export default function Home() {
                 name="Uni Potsdam 🎓"
                 uni="UniPotsdam"
                 category="UniPotsdam1"
-                link="https://chat.whatsapp.com/HUFAxpncF7xADVCXLnj90O"
+                link="https://chat.whatsapp.com/GzBdZWXf0OcHZgOgYVVq9A"
               />
             </div>
             <div className="text-center">
