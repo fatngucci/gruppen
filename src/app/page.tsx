@@ -25,7 +25,7 @@ export default function Home() {
             <div className="text-center">
               <p className="text-lg font-bold"><span className="bg-[#04b851] text-[#ffffff] p-0.5 px-1">TU Berlin</span></p>
               <LinkButton 
-                name="TU Berli"
+                name="TU Berlin"
                 uni="TU"
                 category="TU1"
                 link="https://chat.whatsapp.com/L8qOu9UUqar7CwDqUfoovM"
