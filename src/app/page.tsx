@@ -43,7 +43,7 @@ export default function Home() {
                 name="Humboldt Universität 🎓"
                 uni="HU"
                 category="HU1"
-                link="https://chat.whatsapp.com/D8ftwWReuw4BkURYXBnyM4"
+                link="https://chat.whatsapp.com/JPbz5e5nrxMC4ehECW6ykD"
               />
               <LinkButton 
                 name="Humboldt Universität 🎓 2"
