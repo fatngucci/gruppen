@@ -85,7 +85,7 @@ export default function Home() {
                 name="HTW Berlin Erstis"
                 uni="HTW"
                 category="HTW1"
-                link="https://chat.whatsapp.com/L6O4mJ2UNZOAXleSFFGxjg"
+                link="https://chat.whatsapp.com/BeK25LHURxA8xghVKnBkcv"
               />
             </div>
             <div className="text-center">
