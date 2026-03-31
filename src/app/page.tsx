@@ -28,7 +28,7 @@ export default function Home() {
                 name="TU Berlin"
                 uni="TU"
                 category="TU1"
-                link="https://chat.whatsapp.com/L8qOu9UUqar7CwDqUfoovM"
+                link="https://chat.whatsapp.com/FDTpHUQGJz7CZ6clFWyH1T"
               />
               <LinkButton
                 name="TU Berlin 🧑🏽‍🏫"
