@@ -15,7 +15,7 @@ export default function Home() {
                 <span className="bg-[#04b851] text-[#ffffff] p-0.5 px-1"> allen Studenten in Berlin </span>  
               </p>
               <p className="text-sm text-slate-400 text-center my-5">
-                Diese Website bietet euch eine Übersicht aller WhatsApp-Gruppen für Erstsemester im 2025/26. 
+                Diese Website bietet euch eine Übersicht aller WhatsApp-Gruppen für Erstsemester in 2025/26. 
                 Hier könnt ihr schon vor dem Semesterstart Kommilitonen kennenlernen, WGs finden und alle Fragen rund ums Studium klären.
               </p>
             </div>
