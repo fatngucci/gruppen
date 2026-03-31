@@ -58,7 +58,7 @@ export default function Home() {
                 name="FU Berlin🎓"
                 uni="FU"
                 category="FU1"
-                link="https://chat.whatsapp.com/DhCLbTBXHc7JbJrRgj2a2o"
+                link="https://chat.whatsapp.com/Kxoc6am4VDnEjCPurFJ2lZ"
                 />
             </div>
             <div className="text-center">
