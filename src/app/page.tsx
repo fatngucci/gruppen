@@ -94,7 +94,7 @@ export default function Home() {
                 name="HWR Erstis 🎓"
                 uni="HWR"
                 category="HWR1"
-                link="https://chat.whatsapp.com/G25AE9k0eK6JVFuq5W5jLn"
+                link="https://chat.whatsapp.com/Jt9UkxoEXCQBcVyAJwMm9R"
               />
             </div>
             <div className="text-center">
