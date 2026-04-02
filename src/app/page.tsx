@@ -30,12 +30,6 @@ export default function Home() {
                 category="TU1"
                 link="https://chat.whatsapp.com/FDTpHUQGJz7CZ6clFWyH1T"
               />
-              <LinkButton
-                name="TU Berlin 🧑🏽‍🏫"
-                uni="TU"
-                category="TU2"
-                link="https://chat.whatsapp.com/BXtZwZOi5zpIRMzfdZUwwt"
-                />
             </div>
             <div className="text-center">
               <p className="text-lg font-bold"><span className="bg-[#04b851] text-[#ffffff] p-0.5 px-1">HU Berlin</span></p>
@@ -44,12 +38,6 @@ export default function Home() {
                 uni="HU"
                 category="HU1"
                 link="https://chat.whatsapp.com/JPbz5e5nrxMC4ehECW6ykD"
-              />
-              <LinkButton 
-                name="Humboldt Universität 🎓 2"
-                uni="HU"
-                category="HU2"
-                link="https://chat.whatsapp.com/BctwAcoezgG7gGY9sh7cSF"
               />
             </div>
             <div className="text-center">
