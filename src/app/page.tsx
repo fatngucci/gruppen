@@ -91,7 +91,7 @@ export default function Home() {
                 name="Ersti Gruppen Berlin"
                 uni="Ersti"
                 category="Ersti1"
-                link="https://chat.whatsapp.com/J8iVHk5exVF7dFOhKVJ1jV"
+                link="https://chat.whatsapp.com/EG9iXnt7pPt4JyLG0r7vi8"
               />
             </div>
             <div className="text-center">
@@ -100,7 +100,7 @@ export default function Home() {
                   name="Alle Studenten Partys in BLN"
                   uni="Partys"
                   category="Partys1"
-                  link="https://chat.whatsapp.com/IGvFo0KFXJW0AkRCC5eyGw"
+                  link="https://chat.whatsapp.com/CdaLEH72mTO9iuuueoXL59"
                 />
             </div>
             <div className="text-center">
@@ -109,7 +109,7 @@ export default function Home() {
                 name="Student Jobs - Berlin"
                 uni="Jobs"
                 category="Jobs1"
-                link="https://chat.whatsapp.com/GG8pHL8dONQCVK994kLIaz"
+                link="https://chat.whatsapp.com/JZ04Ft09ohSHEmbKFIBn1I"
               />
             </div>
             <div className="text-center">
@@ -118,7 +118,7 @@ export default function Home() {
                 name="Wohungsbörse Berlin 🏡"
                 uni="Wohnung"
                 category="Wohnung1"
-                link="https://chat.whatsapp.com/JyjhAfsAHdxAWGt9wtmzeB"
+                link="https://chat.whatsapp.com/DvAWNFQsRbL8bAAGxGqU2u"
               />
             </div>
             <div className="text-center">
@@ -127,7 +127,7 @@ export default function Home() {
                 name="Studentenrabatte & Spar-Tipps 🎓"
                 uni="Rabatte"
                 category="Rabatte1"
-                link="https://chat.whatsapp.com/DMEQajtqwBdK5vAgMLEKT3"
+                link="https://chat.whatsapp.com/FJCCrYF91uZKQ4Mpmbdj6A"
               />
             </div>
           </div>
